@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.up-bar{
+    height: 4rem;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 1rem;
+}
+nav a{
+    color: rgba(0, 0, 0, .87);
+    text-decoration: none;
+    font-size: .8rem;
+    margin: 0 .5rem;
+}
+nav a:hover{
+    color: rgba(0, 0, 0, .75);
+    text-decoration: underline;
+}
+.icon i{
+    color: rgba(0, 0, 0, .5);
+}
+.icon-img{
+    width: 1.1rem;
+    height: 1.1rem;
+}
+nav .icon i:hover{
+    color: #000;
+}
+nav ul{
+    list-style-type: none;
+}
+.user{
+    height: 32px;
+    width: 32px;
+    margin: 0 .5rem;
+    border-radius: 100%;
+}
+.main{
+    justify-content: center;
+    margin-top: -7rem;
+}
+.main-section{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.main-logo{
+    justify-content: center;
+    width: 500px;
+    height: 180px;
+}
+.search{
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 3rem;
+    height: 3rem;
+    width: 40rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem;
+}
+.search:hover{
+    box-shadow: 0 .1rem .5rem rgba(0, 0, 0, .2);
+    border-color: #fff;
+}
+
+.search img{
+    height: 1.5rem;
+    width: auto;
+}
+.search input{
+    background-color: white;
+    height: 2rem;
+    width: 30rem;
+    border: 0;
+    outline: 0;
+}
+.button{
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.button input{
+    background-color: #f2f2f2;
+    height: 2rem;
+    border: 0;
+    border-radius: .5rem;
+    padding: 0 1rem;
+    color: rgba(0, 0, 0, .7);
+    margin: 0 .5rem;
+    outline-width: 1px;
+    outline-color: rgba(55, 0, 255, .5);
+}
+.button input:hover{
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+.latam{
+    font-size: .9rem;
+}
+footer{
+    align-self: flex-end;
+}
+.country{
+    background-color: #f2f2f2;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    padding: .5rem 2rem;
+    width: 100%;
+    color: rgba(0, 0, 0, .5);
+}
+.down-bar{
+    background-color: #f2f2f2;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    justify-content: space-between;
+    padding: 0 1rem;
+    height: 40px;
+}
+.down-bar ul{
+    display: flex;
+    align-items: center;
+}
+.down-bar a{
+    padding: .5rem 1rem;
+    margin: 0;
+}
